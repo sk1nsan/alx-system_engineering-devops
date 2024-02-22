@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # printing "Best School" 10 times  but for the 9th iteration, displays Best School and then Hi
 
-for i in `ls`
+for i in *
 do
-	echo ${i#*-}
+	echo "${i#*-}"
 
 done
