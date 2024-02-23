@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-#display pid of current shell
+#displays a list of currently running processes.
 
-echo $$
+ps -u
