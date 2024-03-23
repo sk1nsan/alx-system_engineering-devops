@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# printing "Best School" 10 times  but for the 9th iteration, displays Best School and then Hi
+
+
+while read -e it ; do
+    echo $it
+done <<< ${GROUPS[@]}
